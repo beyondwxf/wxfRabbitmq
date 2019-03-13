@@ -2,7 +2,7 @@ package com.wxf.rabbitmq.subscribe;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.wxf.rabbitmq.ConnectUtil;
+import com.wxf.rabbitmq.Util.ConnectUtil;
 
 
 public class Send {

@@ -3,7 +3,7 @@ package com.wxf.rabbitmq.simple.direct;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.QueueingConsumer;
-import com.wxf.rabbitmq.ConnectUtil;
+import com.wxf.rabbitmq.Util.ConnectUtil;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;

@@ -2,7 +2,7 @@ package com.wxf.rabbitmq.topic;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.wxf.rabbitmq.ConnectUtil;
+import com.wxf.rabbitmq.Util.ConnectUtil;
 
 public class Send {
     private final static String EXCHANGE_NAME = "test_exchange_topic";

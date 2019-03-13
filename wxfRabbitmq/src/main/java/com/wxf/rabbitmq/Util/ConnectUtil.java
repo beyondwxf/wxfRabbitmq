@@ -1,4 +1,4 @@
-package com.wxf.rabbitmq;
+package com.wxf.rabbitmq.Util;
 
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;

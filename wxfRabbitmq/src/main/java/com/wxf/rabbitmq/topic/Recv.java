@@ -3,7 +3,7 @@ package com.wxf.rabbitmq.topic;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.QueueingConsumer;
-import com.wxf.rabbitmq.ConnectUtil;
+import com.wxf.rabbitmq.Util.ConnectUtil;
 
 public class Recv {
     private final static String QUEUE_NAME = "test_queue_topic_work_1";
