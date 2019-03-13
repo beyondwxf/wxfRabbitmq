@@ -3,7 +3,7 @@ package com.wxf.rabbitmq.dlx;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.wxf.rabbitmq.Util.ConnectUtil;
+import com.wxf.rabbitmq.ConnectUtil;
 
 import java.io.IOException;
 import java.util.HashMap;
